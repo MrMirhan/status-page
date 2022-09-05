@@ -1,55 +1,55 @@
-activeIncidents: Active Incidents
-allSystemsOperational: All systems are operational
-incidentReport: "Incident #$NUMBER report →"
-activeIncidentSummary: Opened at $DATE with $POSTS posts
-incidentTitle: Incident $NUMBER Details
-incidentDetails: Incident Details
-incidentFixed: Fixed
-incidentOngoing: Ongoing
-incidentOpenedAt: Opened at
-incidentClosedAt: Closed at
-incidentViewOnGitHub: View and Subscribe on GitHub
-incidentCommentSummary: Posted at $DATE by $AUTHOR
-incidentBack: ← Back to all incidents
-pastIncidents: Past Incidents
-pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
-liveStatus: Live Status
-overallUptime: "Overall uptime: $UPTIME"
-overallUptimeTitle: Overall uptime
-averageResponseTime: "Average response time: $TIMEms"
-averageResponseTimeTitle: Average response
-sevelDayResponseTime: 7-day response time
-responseTimeMs: Response time (ms)
-up: Up
-down: Down
-degraded: Degraded
+activeIncidents: Aktif Problemler
+allSystemsOperational: Tüm sistemler çalışır durumda.
+incidentReport: "#$NUMBER Problem raporu →"
+activeIncidentSummary: $DATE Tarihinde $POSTS paylaşımları ile açıldı.
+incidentTitle: $NUMBER Problem Detayı
+incidentDetails: Problem Detayı
+incidentFixed: Çözüldü
+incidentOngoing: Devam Ediyor
+incidentOpenedAt: Başladı:
+incidentClosedAt: Bitti:
+incidentViewOnGitHub: Görüntüle ve Github ile abone ol.
+incidentCommentSummary: $DATE tarihinde $AUTHOR tarafından paylaşıldı.
+incidentBack: ← Tüm problemlere geri dön
+pastIncidents: Geçmiş problemler
+pastIncidentsResolved: $MINUTES dakikada $POSTS paylaşımları ile çözüldü.
+liveStatus: Güncel Durum
+overallUptime: "Genel Çalışma Süresi: $UPTIME"
+overallUptimeTitle: Genel Çalışma
+averageResponseTime: "Ortalama yanıt süresi: $TIMEms"
+averageResponseTimeTitle: Ortalama Yanıt
+sevelDayResponseTime: 7 Günlük Yanıt Süresi
+responseTimeMs: Yanıt Süresi (ms)
+up: Aktif
+down: Deaktif
+degraded: Bozuk
 ms: ms
-loading: Loading
+loading: Yükleniyor
 navGitHub: GitHub
-footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
-rateLimitExceededTitle: Rate limit exceeded
-rateLimitExceededIntro: You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.
-rateLimitExceededWhatDoesErrorMean: What does this error mean?
-rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
-rateLimitExceededErrorHowCanFix: How can I fix it?
-rateLimitExceededErrorFix: You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour.
+footer: Bu sayfa Upptime kullanılarak LimeNetwork taraından sevgiyle oluşturuldu.
+rateLimitExceededTitle: Limit Aşıldı
+rateLimitExceededIntro: 1 saatte atabileceğiniz maksimum isteği attınız. Lütfen 1 saat tamamlandığında tekrar erişmeye çalışınız.
+rateLimitExceededWhatDoesErrorMean: Bu hata ne anlama geliyor?
+rateLimitExceededErrorMeaning: Bu sistem sunucu durumlarını kontrol etmek için Github API servisini kullanır. Github IP başına saatlik 60 istek limiti verir.
+rateLimitExceededErrorHowCanFix: Nasıl düzeltebilirim?
+rateLimitExceededErrorFix: Limitlerin yenilenmesi için 1 saat bekleyebilirsin.
 rateLimitExceededGeneratePAT: Learn how to generate a Personal Access Token
 rateLimitExceededHasSet: You have a personal access token set.
 rateLimitExceededRemoveToken: Remove token
 rateLimitExceededGitHubPAT: GitHub Personal Access Token
 rateLimitExceededCopyPastePAT: Copy and paste your token
 rateLimitExceededSaveToken: Save token
-errorTitle: An error occurred
-errorIntro: An error occurred in trying to get the latest status details.
-errorText: You can try again in a few moments.
-errorHome: Go to the homepage
-pastScheduledMaintenance: Past Scheduled Maintenance
-scheduledMaintenance: Scheduled Maintenance
-scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
-scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
-startedAt: Started at
-startsAt: Starts at
-duration: Duration
-durationMin: $DURATION minutes
-incidentCompleted: Completed
-incidentScheduled: Scheduled
+errorTitle: Bir Hata Oluştu!
+errorIntro: Son sunucu durumlarını oluştururken bir hata oluştu!
+errorText: Birkaç dakika sonra tekrar deneyiniz!
+errorHome: Anasayfaya git
+pastScheduledMaintenance: Geçmiş Planlı Bakımlar
+scheduledMaintenance: Planlı Bakımlar
+scheduledMaintenanceSummaryStarted: $DATE tarihinde $DURATION dakika için bakım başlatıldı.
+scheduledMaintenanceSummaryStarts: $DATE tarihinde $DURATION dakika için bakım başlayacak.
+startedAt: Başladı: 
+startsAt: Başlayacak: 
+duration: Süre
+durationMin: $DURATION dakika
+incidentCompleted: Tamamlandı
+incidentScheduled: Planlandı
